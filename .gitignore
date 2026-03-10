@@ -1,9 +1,24 @@
+# OS files
 .DS_Store
+*~
+
+# Editor files
 *.swp
 *.swo
-*~
-node_modules/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
 .env
+
+# Node (if any tooling added)
+node_modules/
 
 # MkDocs build output
 site/

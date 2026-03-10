@@ -1,6 +1,6 @@
 # 段取り Dandori
 
-## A Spec-Driven Development Framework for AI-Augmented Engineering Teams
+## A Team Coordination Framework for AI-Augmented Engineering
 
 **Dandori** (段取り) is a Japanese word meaning "preparation" or "setup." In the Toyota Production System, dandori refers to the meticulous preparation work done before production begins. The principle is simple: the quality of output is determined by the quality of preparation, not by what happens on the production line.
 
@@ -9,6 +9,15 @@ In AI-augmented software development, Dandori carries the same meaning. When AI 
 **Dandori is the recognition that in AI-augmented software development, preparation is the work.**
 
 > *"Scrum optimized for production. Kanban optimized for flow. Dandori optimizes for preparation, because when AI handles production and flow is continuous, the quality of what you prepare determines everything."*
+
+---
+
+## Download
+
+| Document | Format | Description |
+|----------|--------|-------------|
+| [**The Dandori Manifesto**](MANIFESTO.md) | [Markdown](MANIFESTO.md) ・ [PDF](docs/assets/dandori-manifesto.pdf) | The values and 12 principles |
+| [**Dandori at a Glance**](ONE-PAGER.md) | [Markdown](ONE-PAGER.md) ・ [PDF](docs/assets/dandori-onepager.pdf) | The entire framework on a single page |
 
 ---
 
@@ -30,7 +39,7 @@ Scrum, as practiced in most organizations, has lost its meaning. Every company i
 
 Dandori is published from this single repository to multiple platforms:
 
-- **GitHub Pages (MkDocs Material)**: [yourusername.github.io/dandori-framework](https://yourusername.github.io/dandori-framework/) -- auto-deployed on every push
+- **GitHub Pages (MkDocs Material)**: [GTuritto.github.io/dandori](https://GTuritto.github.io/dandori/) -- auto-deployed on every push
 - **GitBook**: [dandori.gitbook.io](https://dandori.gitbook.io/) -- syncs from this repo via GitHub integration
 - **GitHub**: Read the Markdown files directly in this repository
 
