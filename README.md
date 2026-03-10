@@ -51,16 +51,6 @@ Dandori is published from this single repository to multiple platforms:
 - **GitHub Pages (MkDocs Material)**: [GTuritto.github.io/dandori](https://GTuritto.github.io/dandori/) -- auto-deployed on every push
 - **GitHub**: Read the Markdown files directly in this repository
 
-## Templates
-
-Optional, lightweight scaffolds to help teams pilot Dandori. Use as-is or adapt to your context:
-
-- [Intent template](templates/intent-template.md)
-- [Specification template](templates/spec-template.md)
-- [Decision Request template](templates/decision-request-template.md)
-- [Integration Review template](templates/integration-review-template.md)
-- [Spec Retrospective template](templates/spec-retro-template.md)
-
 ## Table of Contents
 
 - [Executive Summary](docs/executive-summary.md)
@@ -104,6 +94,17 @@ Optional, lightweight scaffolds to help teams pilot Dandori. Use as-is or adapt 
 - [18. Facilitation: Liberating Structures](docs/part-3-how/18-liberating-structures.md)
 - [19. Prerequisites](docs/part-3-how/19-prerequisites.md)
 - [20. Conclusion](docs/part-3-how/20-conclusion.md)
+
+## Templates
+
+Optional, lightweight scaffolds to help teams pilot Dandori. Use as-is or adapt to your context:
+
+- [Intent template](templates/intent-template.md)
+- [Specification template](templates/spec-template.md)
+- [Decision Request template](templates/decision-request-template.md)
+- [Integration Review template](templates/integration-review-template.md)
+- [Spec Retrospective template](templates/spec-retro-template.md)
+
 
 ## License
 
