@@ -62,6 +62,9 @@ nav:
     - Decision Request Template: templates/decision-request.md
     - Integration Review Template: templates/integration-review.md
     - Spec Retrospective Template: templates/spec-retro.md
+  - Examples:
+    - Product Spec Example: examples/product-spec-example.md
+    - Platform Spec Example: examples/platform-spec-example.md
   - "Part I: Why Dandori":
     - Overview: part-1-why/README.md
     - 1. Scrum Is Already Broken: part-1-why/01-scrum-is-broken.md
