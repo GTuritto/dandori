@@ -1,0 +1,77 @@
+site_name: "Dandori Framework"
+site_description: "A Spec-Driven Development Framework for AI-Augmented Engineering Teams"
+site_url: https://yourusername.github.io/dandori-framework/
+repo_url: https://github.com/yourusername/dandori-framework
+repo_name: dandori-framework
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Executive Summary: executive-summary.md
+  - "Part I: Why Dandori":
+    - Overview: part-1-why/README.md
+    - 1. Scrum Is Already Broken: part-1-why/01-scrum-is-broken.md
+    - 2. AI Is Joining the Team: part-1-why/02-ai-joining-team.md
+    - 3. The Economic Argument: part-1-why/03-economic-argument.md
+    - 4. The Failure Mode Argument: part-1-why/04-failure-modes.md
+    - 5. The Empirical Argument: part-1-why/05-empirical-argument.md
+    - 6. The Talent Argument: part-1-why/06-talent-argument.md
+    - 7. The Strategic Argument: part-1-why/07-strategic-argument.md
+    - 8. The Philosophical Argument: part-1-why/08-philosophical-argument.md
+  - "Part II: What Is Dandori":
+    - Overview: part-2-what/README.md
+    - 9. Core Principles: part-2-what/09-core-principles.md
+    - 10. The Specification Lifecycle: part-2-what/10-specification-lifecycle.md
+    - 11. Roles: part-2-what/11-roles.md
+    - 12. Product Management Alignment: part-2-what/12-product-alignment.md
+    - 13. The Engineering Manager's Role: part-2-what/13-em-role.md
+    - 14. Relationship to Existing Methodologies: part-2-what/14-methodology-comparison.md
+  - "Part III: How Dandori Works":
+    - Overview: part-3-how/README.md
+    - 15. Ceremonies: part-3-how/15-ceremonies.md
+    - 16. What Dandori Transforms: part-3-how/16-transformations.md
+    - 17. Metrics and Measurement: part-3-how/17-metrics.md
+    - 18. Facilitation - Liberating Structures: part-3-how/18-liberating-structures.md
+    - 19. Prerequisites: part-3-how/19-prerequisites.md
+    - 20. Conclusion: part-3-how/20-conclusion.md

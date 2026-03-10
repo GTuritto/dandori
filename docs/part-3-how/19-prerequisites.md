@@ -1,0 +1,9 @@
+# 19. Prerequisites: Understanding Spec-Driven Development
+
+Dandori is built on the foundation of spec-driven development. Before adopting the framework, everyone who will work within it or be affected by it -- engineers, product managers, engineering managers, and stakeholders -- needs to understand the basic principles of spec-driven development. Without this shared understanding, teams will drift into the same problem that plagued Scrum: everyone interpreting the framework differently, reinventing practices that already have clear definitions, and losing the coherence that makes the system work.
+
+Spec-driven development is the discipline of writing structured, precise specifications before implementation begins, and treating those specifications as the primary artifact around which all coordination happens. It is not a new idea. It draws from formal methods, design-by-contract, and the structured engineering practices that predated agile. What makes it newly relevant is that AI execution engines can now implement against well-written specifications with high fidelity, making the specification the most leveraged artifact in the entire development process.
+
+The minimum understanding every team member needs includes: what a specification is and how it differs from a user story or a ticket, why precision in specification matters more when AI is executing than when humans are implementing, how the five lifecycle stages work and what each stage produces, and what their role is within the framework. This is not a heavy training burden. It is a shared vocabulary and a shared mental model that prevents the framework from fragmenting into incompatible interpretations.
+
+Teams that skip this step and go straight to adopting Dandori's ceremonies will find themselves performing the rituals without understanding the reasoning. That is exactly how Scrum lost its meaning, and Dandori should not repeat the pattern.
