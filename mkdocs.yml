@@ -55,6 +55,7 @@ nav:
   - Fit and Boundaries: fit-and-boundaries.md
   - Failure Modes: failure-modes.md
   - Getting Started: getting-started.md
+  - Pilot Guide: pilot-guide.md
   - Templates:
     - Overview: templates.md
     - Intent Template: templates/intent.md

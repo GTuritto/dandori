@@ -60,6 +60,7 @@ Optional, lightweight scaffolds to help teams pilot Dandori. Use as-is or adapt 
 - [Fit and Boundaries](docs/fit-and-boundaries.md)
 - [Failure Modes and Corrections](docs/failure-modes.md)
 - [Getting Started (Incremental Adoption)](docs/getting-started.md)
+- [Pilot Guide (4–6 Weeks)](docs/pilot-guide.md)
 
 ### Part I: Why Dandori
 
