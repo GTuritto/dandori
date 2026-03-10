@@ -2,6 +2,8 @@
 
 Dandori is a team coordination framework. It works best when preparation determines quality. This page clarifies where it fits, where to adapt, and where not to force it.
 
+Dandori is strongest where work can be made clear enough to coordinate through specification. It must be adapted for exploratory, incident-driven, or discovery-heavy work, and it should not be forced where understanding is still being created.
+
 ## Best Fit
 
 Use Dandori as the default when:
