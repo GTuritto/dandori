@@ -47,25 +47,17 @@ plugins:
   - search
 
 nav:
-  - Home: index.md
+
   - The Dandori Manifesto: MANIFESTO.md
   - Dandori at a Glance: ONE-PAGER.md
-  - Executive Summary: executive-summary.md
+  -
+  - Home: index.md
+  - Summary: executive-summary.md
   - What Dandori Is and Is Not: what-dandori-is-not.md
   - Fit and Boundaries: fit-and-boundaries.md
   - Failure Modes: failure-modes.md
   - Getting Started: getting-started.md
   - Pilot Guide: pilot-guide.md
-  - Templates:
-    - Overview: templates.md
-    - Intent Template: templates/intent.md
-    - Specification Template: templates/spec.md
-    - Decision Request Template: templates/decision-request.md
-    - Integration Review Template: templates/integration-review.md
-    - Spec Retrospective Template: templates/spec-retro.md
-  - Examples:
-    - Product Spec Example: examples/product-spec-example.md
-    - Platform Spec Example: examples/platform-spec-example.md
   - "Part I: Why Dandori":
     - Overview: part-1-why/README.md
     - 1. Scrum Is Already Broken: part-1-why/01-scrum-is-broken.md
@@ -98,3 +90,13 @@ nav:
     - 18. Facilitation - Liberating Structures: part-3-how/18-liberating-structures.md
     - 19. Prerequisites: part-3-how/19-prerequisites.md
     - 20. Conclusion: part-3-how/20-conclusion.md
+      - Templates:
+    - Overview: templates.md
+    - Intent Template: templates/intent.md
+    - Specification Template: templates/spec.md
+    - Decision Request Template: templates/decision-request.md
+    - Integration Review Template: templates/integration-review.md
+    - Spec Retrospective Template: templates/spec-retro.md
+  - Examples:
+    - Product Spec Example: examples/product-spec-example.md
+    - Platform Spec Example: examples/platform-spec-example.md
