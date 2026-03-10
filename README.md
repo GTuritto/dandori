@@ -59,6 +59,7 @@ Optional, lightweight scaffolds to help teams pilot Dandori. Use as-is or adapt 
 - [What Dandori Is and Is Not](docs/what-dandori-is-not.md)
 - [Fit and Boundaries](docs/fit-and-boundaries.md)
 - [Failure Modes and Corrections](docs/failure-modes.md)
+- [Getting Started (Incremental Adoption)](docs/getting-started.md)
 
 ### Part I: Why Dandori
 

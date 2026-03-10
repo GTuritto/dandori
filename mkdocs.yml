@@ -54,6 +54,7 @@ nav:
   - What Dandori Is and Is Not: what-dandori-is-not.md
   - Fit and Boundaries: fit-and-boundaries.md
   - Failure Modes: failure-modes.md
+  - Getting Started: getting-started.md
   - Templates:
     - Overview: templates.md
     - Intent Template: templates/intent.md
