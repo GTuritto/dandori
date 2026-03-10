@@ -53,6 +53,7 @@ nav:
   - Executive Summary: executive-summary.md
   - What Dandori Is and Is Not: what-dandori-is-not.md
   - Fit and Boundaries: fit-and-boundaries.md
+  - Failure Modes: failure-modes.md
   - Templates:
     - Overview: templates.md
     - Intent Template: templates/intent.md
