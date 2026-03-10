@@ -1,5 +1,7 @@
 # Decision Request Template
 
+Note: Keep this as short as possible; frame the decision and enable a fast, accountable call.
+
 Use this template when progress depends on a decision that should be made explicitly and visibly.
 
 ## Title

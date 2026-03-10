@@ -1,5 +1,7 @@
 # Specification Template
 
+Note: Keep this specification as short as possible while preserving unambiguous execution and validation. Include only what is necessary.
+
 Use this template to define work clearly enough that execution, validation, and coordination can proceed with minimal ambiguity.
 
 ## Title

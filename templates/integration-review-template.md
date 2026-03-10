@@ -1,5 +1,7 @@
 # Integration Review Template
 
+Note: Keep this review concise; focus on outcomes, gaps, and decisions that unblock safe integration.
+
 Use this template to review integration outcomes and cross-functional readiness, and to identify coordination gaps.
 
 ## Title

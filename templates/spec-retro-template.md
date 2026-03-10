@@ -1,5 +1,7 @@
 # Spec Retrospective Template
 
+Note: Keep this retro concise; capture only observations and actions that improve specification quality and flow.
+
 Use this template after delivery, validation, or integration to learn how well the specification and coordination model worked.
 
 ## Title

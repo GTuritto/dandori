@@ -1,5 +1,7 @@
 # Intent Template
 
+Note: Keep this as short as possible while preserving clarity. Include only what is necessary for shared understanding and next action.
+
 Use this template to capture the purpose, scope, and expected outcome of a piece of work before full specification begins.
 
 ## Title
