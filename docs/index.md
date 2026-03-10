@@ -15,7 +15,8 @@ In AI-augmented software development, Dandori carries the same meaning. When AI 
 ## Download
 
 | Document | Format | Description |
-|----------|--------|-------------|
+| ---------- | -------- | ------------- |
+| **The Dandori Framework** | [PDF](assets/dandori-framework.pdf) | The complete framework (all chapters) |
 | **The Dandori Manifesto** | [Markdown](MANIFESTO.md) ・ [PDF](assets/dandori-manifesto.pdf) | The values and 12 principles |
 | **Dandori at a Glance** | [Markdown](ONE-PAGER.md) ・ [PDF](assets/dandori-onepager.pdf) | The entire framework on a single page |
 
