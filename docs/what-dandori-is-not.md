@@ -18,6 +18,10 @@ The distinction matters because confusing the two leads to wrong expectations. S
 
 Dandori increases quality through better preparation, not through more paperwork. Specifications and related artifacts are intentionally lean: they exist to remove ambiguity, encode decisions, and define testable acceptance criteria so execution and validation are unambiguous. If a document does not add clarity or decisions, it is waste. Teams should earn the right to reduce formality as signals stabilize.
 
+## Dandori Is Not a Universal Ritual System
+
+Dandori is a coordination framework for an era in which AI changes where leverage lives. Its purpose is not to create more process. Its purpose is to move human effort toward the places where human judgment now matters most.
+
 ## Dandori Is Tool-Agnostic
 
 Dandori does not prescribe which AI tools a team should use. It does not assume GitHub Copilot, or Claude Code, or Cursor, or any specific model or platform. It does not even assume AI tools that follow the spec-driven development pattern.
