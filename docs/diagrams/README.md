@@ -20,7 +20,6 @@ Editable Mermaid diagrams for the Dandori Framework. These render natively on Gi
 These diagrams are [Mermaid](https://mermaid.js.org/) files. They render automatically on GitHub when viewed in the browser. To use them in other contexts:
 
 - **MkDocs Material**: Enable the `pymdownx.superfences` extension with mermaid support
-- **GitBook**: Embed using mermaid code blocks in Markdown
 - **Presentations**: Use [Mermaid Live Editor](https://mermaid.live/) to export as SVG or PNG
 - **Forking**: Edit these files directly to adapt the diagrams for your team's context
 

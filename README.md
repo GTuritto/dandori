@@ -41,7 +41,6 @@ Scrum, as practiced in most organizations, has lost its meaning. Every company i
 Dandori is published from this single repository to multiple platforms:
 
 - **GitHub Pages (MkDocs Material)**: [GTuritto.github.io/dandori](https://GTuritto.github.io/dandori/) -- auto-deployed on every push
-- **GitBook**: [dandori.gitbook.io](https://dandori.gitbook.io/) -- syncs from this repo via GitHub integration
 - **GitHub**: Read the Markdown files directly in this repository
 
 ## Templates
