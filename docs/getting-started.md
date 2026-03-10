@@ -2,6 +2,8 @@
 
 This guide helps real teams adopt Dandori without replacing their entire operating model at once. Start small, keep it light, and let data justify changes.
 
+Dandori should be adopted incrementally. Teams should begin where ambiguity, rework, or coordination pain is already visible, not by replacing their entire operating model at once.
+
 ## Who Should Not Adopt Yet
 - In active incident/crisis mode where stability work dominates (return after stabilization).
 - Pure research/spikes with no near-term delivery (use Post‑Mortem/learning notes, not specs).
