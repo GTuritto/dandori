@@ -52,7 +52,13 @@ nav:
   - Dandori at a Glance: ONE-PAGER.md
   - Executive Summary: executive-summary.md
   - What Dandori Is and Is Not: what-dandori-is-not.md
-  - Templates: templates.md
+  - Templates:
+    - Overview: templates.md
+    - Intent Template: templates/intent.md
+    - Specification Template: templates/spec.md
+    - Decision Request Template: templates/decision-request.md
+    - Integration Review Template: templates/integration-review.md
+    - Spec Retrospective Template: templates/spec-retro.md
   - "Part I: Why Dandori":
     - Overview: part-1-why/README.md
     - 1. Scrum Is Already Broken: part-1-why/01-scrum-is-broken.md
