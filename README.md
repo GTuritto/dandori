@@ -12,6 +12,8 @@ In AI-augmented software development, Dandori carries the same meaning. When AI 
 
 ---
 
+Note on scope: Dandori is about better preparation, not more documentation. Artifacts are lean and exist only to make execution and validation unambiguous; if a document does not add clarity or decisions, it is waste.
+
 ## Download
 
 | Document | Format | Description |

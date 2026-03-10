@@ -14,6 +14,10 @@ Spec-Kit tells a developer how to structure a specification for GitHub Copilot. 
 
 The distinction matters because confusing the two leads to wrong expectations. Someone expecting a developer tool will be disappointed. Someone looking for how to organize their team in a post-Scrum world will find exactly what they need.
 
+## Dandori Is Not More Documentation
+
+Dandori increases quality through better preparation, not through more paperwork. Specifications and related artifacts are intentionally lean: they exist to remove ambiguity, encode decisions, and define testable acceptance criteria so execution and validation are unambiguous. If a document does not add clarity or decisions, it is waste. Teams should earn the right to reduce formality as signals stabilize.
+
 ## Dandori Is Tool-Agnostic
 
 Dandori does not prescribe which AI tools a team should use. It does not assume GitHub Copilot, or Claude Code, or Cursor, or any specific model or platform. It does not even assume AI tools that follow the spec-driven development pattern.
