@@ -44,6 +44,16 @@ Dandori is published from this single repository to multiple platforms:
 - **GitBook**: [dandori.gitbook.io](https://dandori.gitbook.io/) -- syncs from this repo via GitHub integration
 - **GitHub**: Read the Markdown files directly in this repository
 
+## Templates
+
+Optional, lightweight scaffolds to help teams pilot Dandori. Use as-is or adapt to your context:
+
+- [Intent template](templates/intent-template.md)
+- [Specification template](templates/spec-template.md)
+- [Decision Request template](templates/decision-request-template.md)
+- [Integration Review template](templates/integration-review-template.md)
+- [Spec Retrospective template](templates/spec-retro-template.md)
+
 ## Table of Contents
 
 - [Executive Summary](docs/executive-summary.md)
