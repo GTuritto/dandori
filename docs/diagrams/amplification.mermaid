@@ -1,0 +1,31 @@
+---
+title: "AI as Team Amplifier, Not Team Replacement"
+---
+flowchart LR
+    subgraph BEFORE["BEFORE AI"]
+        direction TB
+        B1["👤 👤 👤 👤 👤"]
+        B2["Team of 5 = Output X"]
+        B1 --- B2
+    end
+
+    BEFORE -- "AI joins\nthe team" --> AFTER
+
+    subgraph AFTER["WITH AI"]
+        direction TB
+        A1["👤🤖 👤🤖 👤🤖 👤🤖 👤🤖"]
+        A2["Same Team of 5 = Output X × Y"]
+        A1 --- A2
+    end
+
+    NOTE["Same people, amplified capability.\nAI multiplies what teams can deliver,\nit does not reduce who delivers."]
+
+    AFTER --- NOTE
+
+    style BEFORE fill:#F0F4F8,color:#1B3A5C,stroke:#2E75B6
+    style AFTER fill:#FFF8E8,color:#1B3A5C,stroke:#D4A84B
+    style NOTE fill:#fff,color:#2D2D2D,stroke:#ccc
+    style B1 fill:#F0F4F8,color:#2E75B6,stroke:none
+    style B2 fill:#F0F4F8,color:#1B3A5C,stroke:none
+    style A1 fill:#FFF8E8,color:#2E75B6,stroke:none
+    style A2 fill:#FFF8E8,color:#1B3A5C,stroke:none

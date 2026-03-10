@@ -1,0 +1,31 @@
+---
+title: The Specification Lifecycle
+---
+flowchart LR
+    subgraph Human-Driven
+        I[🎯 INTENT\nProblem or opportunity\narticulated]
+        S[📋 SPECIFICATION\nStructured executable\ndocument]
+    end
+
+    subgraph AI-Driven
+        E[⚡ EXECUTION\nAI agents implement\nagainst spec]
+    end
+
+    subgraph Human-Driven-2 [Human-Driven]
+        V[✅ VALIDATION\nHuman review against\nspec criteria]
+        G[🚀 INTEGRATION\nValidated output\nmerges into system]
+    end
+
+    I -->|Forward flow| S
+    S -->|Forward flow| E
+    E -->|Forward flow| V
+    V -->|Forward flow| G
+
+    V -.->|Spec revision\nif validation fails| S
+    V -.->|Back to intent if\nproblem was misunderstood| I
+
+    style I fill:#2E75B6,color:#fff,stroke:#2E75B6
+    style S fill:#1B3A5C,color:#fff,stroke:#1B3A5C
+    style E fill:#D4A84B,color:#fff,stroke:#D4A84B
+    style V fill:#2E75B6,color:#fff,stroke:#2E75B6
+    style G fill:#1B3A5C,color:#fff,stroke:#1B3A5C

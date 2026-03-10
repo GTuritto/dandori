@@ -1,0 +1,42 @@
+---
+title: Specifiability Classification
+---
+flowchart LR
+    subgraph CLEAR["✅ CLEAR"]
+        direction TB
+        C1["Well-understood\nHigh AI confidence"]
+        C2["Process: Straight to\nSpecification"]
+        C3["Execution: Likely\nAI-executed"]
+        C1 --- C2 --- C3
+    end
+
+    subgraph COMPLEX["⚠️ COMPLEX"]
+        direction TB
+        X1["Design decisions needed\nModerate spec risk"]
+        X2["Process: Pre-Mortem\nbefore Execution"]
+        X3["Execution: Human + AI\ncollaboration"]
+        X1 --- X2 --- X3
+    end
+
+    subgraph UNCERTAIN["🔴 UNCERTAIN"]
+        direction TB
+        U1["Research required\nHigh revision likelihood"]
+        U2["Process: Exploration spike\nbefore spec"]
+        U3["Execution: Significant\nhuman work"]
+        U1 --- U2 --- U3
+    end
+
+    CLEAR --> COMPLEX --> UNCERTAIN
+
+    style CLEAR fill:#e8f5e9,color:#2E8B57,stroke:#2E8B57
+    style COMPLEX fill:#e3f2fd,color:#2E75B6,stroke:#2E75B6
+    style UNCERTAIN fill:#fbe9e7,color:#CC6644,stroke:#CC6644
+    style C1 fill:#fff,color:#2E8B57,stroke:#2E8B57
+    style C2 fill:#fff,color:#2E8B57,stroke:#2E8B57
+    style C3 fill:#fff,color:#2E8B57,stroke:#2E8B57
+    style X1 fill:#fff,color:#2E75B6,stroke:#2E75B6
+    style X2 fill:#fff,color:#2E75B6,stroke:#2E75B6
+    style X3 fill:#fff,color:#2E75B6,stroke:#2E75B6
+    style U1 fill:#fff,color:#CC6644,stroke:#CC6644
+    style U2 fill:#fff,color:#CC6644,stroke:#CC6644
+    style U3 fill:#fff,color:#CC6644,stroke:#CC6644

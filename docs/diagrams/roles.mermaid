@@ -1,0 +1,30 @@
+---
+title: Dandori Roles and Relationships
+---
+flowchart TB
+    subgraph Roles
+        direction LR
+        SO["🔧 SPEC OWNER\n─────────────\nTranslates intent into\nprecise specifications\nfor AI execution\n─────────────\n• Writes specifications\n• Triggers Decision Requests\n• Initiates Spec Handoffs"]
+
+        RE["🔍 REVIEWER\n─────────────\nEvaluates AI output\nagainst specs and\nsystem coherence\n─────────────\n• Validates AI output\n• Catches architectural drift\n• Provides spec feedback"]
+
+        PR["📊 PRIORITIZER\n─────────────\nManages flow, decides\nwhat gets specified\nnext\n─────────────\n• Owns intent queue\n• Runs Flow Planning\n• Resolves Decision Requests"]
+    end
+
+    SO -- "Spec Handoff" --> RE
+    PR -- "Priorities +\nDecision Responses" --> SO
+
+    subgraph EM["ENGINEERING MANAGER"]
+        direction LR
+        SysOp["🔄 System Operator\nPipeline health, flow metrics,\nceremony effectiveness"]
+        TA["🌱 Talent Architect\nSpec skills development,\ncareer growth, team health"]
+    end
+
+    Roles --> EM
+
+    style SO fill:#2E75B6,color:#fff,stroke:#1B3A5C
+    style RE fill:#1B3A5C,color:#fff,stroke:#1B3A5C
+    style PR fill:#D4A84B,color:#fff,stroke:#D4A84B
+    style EM fill:#F0F4F8,color:#1B3A5C,stroke:#2E75B6
+    style SysOp fill:#fff,color:#2E75B6,stroke:#2E75B6
+    style TA fill:#fff,color:#2E75B6,stroke:#2E75B6

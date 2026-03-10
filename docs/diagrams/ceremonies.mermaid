@@ -1,0 +1,51 @@
+---
+title: Dandori Ceremony Cadence
+---
+block-beta
+    columns 5
+
+    block:CONT["CONTINUOUS"]:5
+        SH["Spec Handoff\n10-15 min"]
+        DR["Decision Request\nAsync"]
+        PM["Pre-Mortem\n20-30 min"]
+        space
+        space
+    end
+
+    block:DAILY["DAILY"]:5
+        PS["Pipeline Sync\n15 min"]
+        space
+        space
+        space
+        space
+    end
+
+    block:WEEKLY["WEEKLY"]:5
+        IR["Integration Review\n30-45 min"]
+        SR["Spec Retrospective\n30 min"]
+        PR["Prioritization Reset\n/ Flow Planning\n30-45 min"]
+        space
+        space
+    end
+
+    block:BIWEEK["BIWEEKLY"]:5
+        IRV["Intent Review\n45-60 min"]
+        DD["Demo Day\n30-45 min"]
+        space
+        space
+        space
+    end
+
+    block:MONTHLY["MONTHLY+"]:5
+        TR["Team Retrospective\n60 min"]
+        WG["War Games\nHalf day (quarterly)"]
+        PMO["Post-Mortem\n60-90 min\n(event-driven)"]
+        space
+        space
+    end
+
+    style CONT fill:#D4A84B,color:#fff
+    style DAILY fill:#2E75B6,color:#fff
+    style WEEKLY fill:#1B3A5C,color:#fff
+    style BIWEEK fill:#5B8C5A,color:#fff
+    style MONTHLY fill:#8B5E83,color:#fff

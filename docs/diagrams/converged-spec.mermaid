@@ -1,0 +1,42 @@
+---
+title: "Dandori: All Disciplines Converge on the Specification"
+---
+flowchart LR
+    subgraph INTENT["🎯 INTENT"]
+        PM["Product Manager\nProblem & success criteria"]
+        BA["Business Analyst\nDomain rules & constraints"]
+        ARCH1["Architect\nFeasibility signals"]
+    end
+
+    subgraph SPEC["📋 SPECIFICATION"]
+        SO["Spec Owner\nCoordinates all input\ninto single artifact"]
+        UX["UX Designer\nInteraction patterns\nAccessibility reqs"]
+        ARCH2["Architect\nInterface contracts\nPerformance constraints"]
+        QA["QA Engineer\nTest scenarios\nEdge cases"]
+        UAT["UAT Specialist\nBusiness validation\ncriteria"]
+    end
+
+    subgraph EXEC["⚡ EXECUTION"]
+        AI["AI Agent or\nHuman Developer\nimplements against\ncomplete spec"]
+    end
+
+    subgraph VALID["✅ VALIDATION"]
+        REV["Reviewer\nFunctional criteria"]
+        QAV["QA\nQuality dimensions"]
+        UATV["UAT\nBusiness criteria"]
+    end
+
+    subgraph INTEG["🚀 INTEGRATION"]
+        SHIP["Merge & Archive\nAll disciplines\nalready validated"]
+    end
+
+    INTENT --> SPEC
+    SPEC --> EXEC
+    EXEC --> VALID
+    VALID --> INTEG
+
+    style INTENT fill:#F0F4F8,color:#1B3A5C,stroke:#2E75B6
+    style SPEC fill:#1B3A5C,color:#fff,stroke:#1B3A5C
+    style EXEC fill:#D4A84B,color:#fff,stroke:#D4A84B
+    style VALID fill:#2E75B6,color:#fff,stroke:#2E75B6
+    style INTEG fill:#1B3A5C,color:#fff,stroke:#1B3A5C

@@ -1,0 +1,29 @@
+---
+title: "Parallel Workstreams: Scrum vs Dandori"
+---
+gantt
+    title Scrum: Parallel Workstreams (Misaligned)
+    dateFormat X
+    axisFormat %s
+
+    section Design
+    Research & Prototype    :des1, 0, 4
+    Handoff to Sprint       :milestone, m1, 4, 0
+    Revision (post-feedback):des2, 12, 3
+
+    section Sprint
+    Sprint Planning         :sp1, 4, 1
+    Build                   :sp2, 5, 5
+    Sprint Review           :milestone, m2, 10, 0
+
+    section QA
+    Test (after build)      :qa1, 10, 3
+    Bug Reports             :milestone, m3, 13, 0
+
+    section UAT
+    Business Validation     :uat1, 13, 3
+    Change Requests         :milestone, m4, 16, 0
+
+    section Rework
+    Fix QA issues           :crit, rw1, 14, 2
+    Fix UAT issues          :crit, rw2, 16, 3
