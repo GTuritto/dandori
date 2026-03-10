@@ -18,6 +18,8 @@ When AI handles a growing share of production, the quality of software depends l
 
 If a practice increases paperwork without increasing clarity, coordination, validation, or learning, it is not Dandori.
 
+Preparation is not documentation for its own sake. Preparation exists to create shared clarity, explicit constraints, visible decisions, and reliable validation. Documentation that does not improve the work is overhead, not preparation.
+
 ## Download
 
 | Document | Format | Description |
